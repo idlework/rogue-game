@@ -2,12 +2,11 @@
 using System.Collections; 
 using System.Collections.Generic;
 
-public class GameManager : MonoBehaviour
-{
+public class GameManager : MonoBehaviour {
 	public static readonly GameManager instance = new GameManager();
 
 	private BoardManager boardManager;
-	private int level = 3;
+	private int level = 10;
 
 	//Awake is always called before any Start functions
 	void Awake() {
